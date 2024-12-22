@@ -1,9 +1,9 @@
 # Multitemplate
 
-[![Run Tests](https://github.com/gin-contrib/multitemplate/actions/workflows/go.yml/badge.svg)](https://github.com/gin-contrib/multitemplate/actions/workflows/go.yml)
+[![Run Tests](https://github.com/caris-events-fork/multitemplate/actions/workflows/go.yml/badge.svg)](https://github.com/caris-events-fork/multitemplate/actions/workflows/go.yml)
 [![codecov](https://codecov.io/gh/gin-contrib/multitemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/multitemplate)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/multitemplate)](https://goreportcard.com/report/github.com/gin-contrib/multitemplate)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/multitemplate?status.svg)](https://godoc.org/github.com/gin-contrib/multitemplate)
+[![Go Report Card](https://goreportcard.com/badge/github.com/caris-events-fork/multitemplate)](https://goreportcard.com/report/github.com/caris-events-fork/multitemplate)
+[![GoDoc](https://godoc.org/github.com/caris-events-fork/multitemplate?status.svg)](https://godoc.org/github.com/caris-events-fork/multitemplate)
 
 This is a custom HTML render to support multi templates, ie. more than one `*template.Template`.
 
@@ -14,13 +14,13 @@ This is a custom HTML render to support multi templates, ie. more than one `*tem
 Download and install it:
 
 ```sh
-go get github.com/gin-contrib/multitemplate
+go get github.com/caris-events-fork/multitemplate
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/multitemplate"
+import "github.com/caris-events-fork/multitemplate"
 ```
 
 ### Simple example
@@ -31,7 +31,7 @@ See [example/simple/example.go](example/simple/example.go)
 package main
 
 import (
-  "github.com/gin-contrib/multitemplate"
+  "github.com/caris-events-fork/multitemplate"
   "github.com/gin-gonic/gin"
 )
 
@@ -71,7 +71,7 @@ package main
 import (
   "path/filepath"
 
-  "github.com/gin-contrib/multitemplate"
+  "github.com/caris-events-fork/multitemplate"
   "github.com/gin-gonic/gin"
 )
 

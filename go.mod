@@ -1,4 +1,4 @@
-module github.com/gin-contrib/multitemplate
+module github.com/caris-events-fork/multitemplate
 
 go 1.21.0
 

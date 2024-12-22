@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/gin-contrib/multitemplate"
+	"github.com/caris-events-fork/multitemplate"
 	"github.com/gin-gonic/gin"
 )
 
